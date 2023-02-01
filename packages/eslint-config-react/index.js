@@ -6,36 +6,33 @@ module.exports = {
     "plugin:react-hooks/recommended",
   ],
   parserOptions: {
-    ecmaVersion: 2018,
+    ecmaVersion: "latest",
+    ecmaFeatures: {
+      jsx: true,
+    },
     sourceType: "module",
-    jsx: true,
   },
   plugins: [
     "react",
-    "react-native",
     "import",
     "simple-import-sort",
     "unused-imports"
   ],
-  env: {
-    "react-native/react-native": true
-  },
   rules: {
-    "max-len": ["error", { "code": 80 }],
-    "no-console": "warn",
-    "no-nested-ternary": "off",
+    "max-len": [2, { "code": 90 }],
+    "no-console": 1,
     "no-use-before-define": 0,
     "no-restricted-globals": 0,
-    "prefer-const": ["warn", {
+    "prefer-const": [1, {
       "ignoreReadBeforeAssign": true
     }],
-    "import/order": "off",
+    "import/order": 0,
     "import/extensions": 0,
     "import/no-extraneous-dependencies": 0,
     "import/prefer-default-export": 0,
-    "simple-import-sort/exports": "error",
+    "simple-import-sort/exports": 2,
     "simple-import-sort/imports": [
-      "error",
+      2,
       {
         "groups": [
           [
@@ -59,11 +56,11 @@ module.exports = {
     "unused-imports/no-unused-imports": 1,
 
     // React rules
-    "react/no-did-update-set-state": "off",
+    "react/no-did-update-set-state": 0,
     "react/require-default-props": 2,
     "react/forbid-prop-types": 0,
     "react/static-property-placement": 0,
-    "react/display-name": "off",
+    "react/display-name": 0,
     "react/sort-comp": 0,
     "react/jsx-filename-extension": [0, { "extensions": [".jsx", ".js"] }],
     "react/jsx-props-no-spreading": 0,
@@ -83,13 +80,9 @@ module.exports = {
       "requiredFirst": true,
       "sortShapeProp": true,
       "noSortAlphabetically": false
-    }],
-
-    // React Native rules
-    "react-native/no-unused-styles": 2,
-    "react-native/no-inline-styles": 2,
-    "react-native/no-raw-text": 1,
-    "react-native/no-color-literals": 2,
-    "react-native/no-single-element-style-arrays": 2,
+    }]
+  },
+  globals: {
+    "fetch": "readonly"
   },
 };

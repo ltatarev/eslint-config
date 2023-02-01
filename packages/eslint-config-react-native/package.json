@@ -1,0 +1,36 @@
+{
+  "name": "@ltatarev/eslint-config-react-native",
+  "version": "1.0.0-beta.0",
+  "description": "Eslint config for React Native projects",
+  "main": "index.js",
+  "dependencies": {
+    "@ltatarev/eslint-config-react": "^1.0.0-beta.0",
+    "eslint-config-airbnb": "19.0.4",
+    "eslint": "8.28.0",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-jsx-a11y": "6.6.1",
+    "eslint-plugin-prettier": "4.2.1",
+    "eslint-plugin-react": "7.31.11",
+    "eslint-plugin-react-hooks": "4.3.0",
+    "eslint-plugin-react-native": "4.0.0",
+    "eslint-plugin-simple-import-sort": "8.0.0",
+    "eslint-plugin-unused-imports": "2.0.0",
+    "prettier": "2.7.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ltatarev/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "react",
+    "react-native"
+  ],
+  "author": "ltatarev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ltatarev/eslint-config/issues"
+  },
+  "homepage": "https://github.com/ltatarev/eslint-config#readme"
+}
