@@ -1,10 +1,10 @@
 {
   "name": "@ltatarev/eslint-config-react-native",
-  "version": "1.0.0",
+  "version": "1.0.0-beta.0",
   "description": "Eslint config for React Native projects",
   "main": "index.js",
   "dependencies": {
-    "@ltatarev/eslint-config-react": "^1.0.0",
+    "@ltatarev/eslint-config-react": "^1.0.0-beta.0",
     "eslint-config-airbnb": "19.0.4",
     "eslint": "8.28.0",
     "eslint-plugin-import": "2.26.0",
