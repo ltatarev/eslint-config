@@ -2,7 +2,7 @@
 
 [![NPM](https://img.shields.io/npm/v/@ltatarev/eslint-config-react?style=flat-square)](https://www.npmjs.com/package/@ltatarev/eslint-config-react-native) [![NPM License](https://img.shields.io/npm/l/@ltatarev/eslint-config-react?style=flat-square)](https://opensource.org/licenses/MIT)
 
-Eslint config for React and React Native projects. Contains recommended rules extended from `airbnb`, `airbnb/hooks`, `plugin:react`, `plugin:react-hooks`. Added rules contain import and prop sorting.
+Eslint config for React projects. Contains recommended rules extended from `airbnb`, `airbnb/hooks`, `plugin:react`, `plugin:react-hooks`. Added rules contain import and prop sorting.
 
 ## 🖥️ Installation
 
