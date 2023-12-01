@@ -4,6 +4,8 @@ module.exports = {
     "airbnb/hooks",
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
   ],
   parserOptions: {
     ecmaVersion: "latest",
@@ -16,7 +18,8 @@ module.exports = {
     "react",
     "import",
     "simple-import-sort",
-    "unused-imports"
+    "unused-imports",
+    "@typescript-eslint",
   ],
   rules: {
     "max-len": [2, { "code": 90 }],
