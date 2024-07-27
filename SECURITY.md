@@ -11,5 +11,5 @@
 
 Use this section to tell people how to report a vulnerability.
 
-Please report (suspected) security vulnerabilities to <ltatarev@gmail.com>.
+Please report (suspected) security vulnerabilities to Issues.
 If the issue is confirmed, a patch will be released as soon as possible.
