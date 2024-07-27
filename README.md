@@ -6,7 +6,7 @@ Eslint config for React and React Native projects. Contains recommended rules ex
 
 ## 🖥️ Installation
 
-1. Install the desired package using the below command.
+1. Install the desired package using the below commands.
 
 ```sh
 npm install --dev @ltatarev/eslint-config-react
