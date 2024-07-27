@@ -4,6 +4,7 @@ module.exports = {
     "airbnb/hooks",
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
+    "plugin:jsx-a11y/recommended",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
   ],
@@ -19,7 +20,8 @@ module.exports = {
     "import",
     "simple-import-sort",
     "unused-imports",
-    "@typescript-eslint",
+    "jsx-a11y",
+    "@typescript-eslint"
   ],
   rules: {
     "max-len": [2, { "code": 90 }],
