@@ -5,8 +5,8 @@ on:
     types: [created]
 
 defaults:
- run:
-  working-directory: ./packages/eslint-config-react-native
+  run:
+    working-directory: ./packages/eslint-config-react-native
 
 jobs:
   build:
@@ -16,7 +16,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 16
-      - run: npm ci
+      - run: npm i
 
   publish-gpr:
     needs: build
