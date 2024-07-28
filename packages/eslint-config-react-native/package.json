@@ -1,43 +1,39 @@
 {
   "name": "@ltatarev/eslint-config-react-native",
-  "version": "2.0.1",
+  "version": "2.2.0",
   "description": "Eslint config for React Native projects",
-  "main": "index.js",
-  "dependencies": {
-    "@ltatarev/eslint-config-react": "^2.0.0",
-    "@react-native-community/eslint-config": "^3.2.0",
-    "@typescript-eslint/eslint-plugin": "6.13.1",
-    "@typescript-eslint/parser": "6.13.1",
-    "eslint": "8.56.0",
-    "eslint-config-airbnb": "19.0.4",
-    "eslint-plugin-import": "2.29.1",
-    "eslint-plugin-jsx-a11y": "^6.9.0",
-    "eslint-plugin-prettier": "5.2.1",
-    "eslint-plugin-react": "7.35.0",
-    "eslint-plugin-react-hooks": "4.6.2",
-    "eslint-plugin-react-native": "4.1.0",
-    "eslint-plugin-react-native-a11y": "^3.4.1",
-    "eslint-plugin-simple-import-sort": "12.1.1",
-    "eslint-plugin-unused-imports": "3.0.0",
-    "prettier": "3.3.3"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ltatarev/eslint-config.git"
-  },
   "keywords": [
     "eslint",
     "eslint-config",
     "react",
     "react-native"
   ],
-  "author": "ltatarev",
-  "license": "MIT",
+  "homepage": "https://github.com/ltatarev/eslint-config#readme",
   "bugs": {
     "url": "https://github.com/ltatarev/eslint-config/issues"
   },
-  "homepage": "https://github.com/ltatarev/eslint-config#readme",
-  "publishConfig": {
-    "@ltatarev:registry": "https://npm.pkg.github.com"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ltatarev/eslint-config.git"
+  },
+  "license": "MIT",
+  "author": "ltatarev",
+  "main": "index.js",
+  "dependencies": {
+    "@ltatarev/eslint-config-react": "^2.0.0",
+    "@typescript-eslint/eslint-plugin": "6.13.1",
+    "@typescript-eslint/parser": "6.13.1",
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jsx-a11y": "^6.9.0",
+    "eslint-plugin-prettier": "5.2.1",
+    "eslint-plugin-react": "^7.35.0",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-native": "4.1.0",
+    "eslint-plugin-react-native-a11y": "^3.4.1",
+    "eslint-plugin-simple-import-sort": "12.1.1",
+    "eslint-plugin-unused-imports": "3.0.0",
+    "prettier": "3.3.3"
   }
 }
