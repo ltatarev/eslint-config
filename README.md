@@ -6,16 +6,16 @@ Eslint config for React and React Native projects. Contains recommended rules ex
 
 ## 🖥️ Installation
 
-1. Install the desired package using the below commands.
+1. Install the config and all required peer dependencies using the below commands.
 
 ```sh
-npm install --dev @ltatarev/eslint-config-react
+npx install-peerdeps --dev @ltatarev/eslint-config-react
 ```
 
 or
 
 ```sh
-npm install --dev @ltatarev/eslint-config-react-native
+npx install-peerdeps --dev @ltatarev/eslint-config-react-native
 ```
 
 2. Add `"extends": "@ltatarev/react"` or `"extends": "@ltatarev/react-native"` to your .eslintrc.

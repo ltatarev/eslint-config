@@ -9,7 +9,7 @@ Eslint config for React TypeScript projects. Contains recommended rules extended
 1. Install the desired package using the below command.
 
 ```sh
-npm install --dev @ltatarev/eslint-config-react
+npx install-peerdeps --dev @ltatarev/eslint-config-react
 ```
 
 2. Add `"extends": "@ltatarev/react"` to your .eslintrc.

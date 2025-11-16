@@ -1,6 +1,6 @@
 {
   "name": "@ltatarev/eslint-config-react-native",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "description": "Eslint config for React Native projects",
   "keywords": [
     "eslint",
@@ -20,20 +20,22 @@
   "author": "ltatarev",
   "main": "index.js",
   "dependencies": {
-    "@ltatarev/eslint-config-react": "^2.0.0",
-    "@typescript-eslint/eslint-plugin": "6.13.1",
-    "@typescript-eslint/parser": "6.13.1",
-    "eslint": "^8.57.0",
-    "eslint-config-airbnb": "^19.0.4",
-    "eslint-plugin-import": "^2.29.1",
-    "eslint-plugin-jsx-a11y": "^6.9.0",
-    "eslint-plugin-prettier": "5.2.1",
-    "eslint-plugin-react": "^7.35.0",
-    "eslint-plugin-react-hooks": "^4.6.2",
-    "eslint-plugin-react-native": "4.1.0",
-    "eslint-plugin-react-native-a11y": "^3.4.1",
-    "eslint-plugin-simple-import-sort": "12.1.1",
-    "eslint-plugin-unused-imports": "3.0.0",
-    "prettier": "3.3.3"
+    "@ltatarev/eslint-config-react": "^2.0.0"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": ">=6.13.1",
+    "@typescript-eslint/parser": ">=6.13.1",
+    "eslint": ">=8.57.0",
+    "eslint-config-airbnb": ">=19.0.4",
+    "eslint-plugin-import": ">=2.29.1",
+    "eslint-plugin-jsx-a11y": ">=6.9.0",
+    "eslint-plugin-prettier": ">=5.2.1",
+    "eslint-plugin-react": ">=7.35.0",
+    "eslint-plugin-react-hooks": ">=4.6.2",
+    "eslint-plugin-react-native": ">=4.1.0",
+    "eslint-plugin-react-native-a11y": ">=3.4.1",
+    "eslint-plugin-simple-import-sort": ">=12.1.1",
+    "eslint-plugin-unused-imports": ">=3.0.0",
+    "prettier": ">=3.3.3"
   }
 }
