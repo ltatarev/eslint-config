@@ -8,27 +8,28 @@ module.exports = {
     "@ltatarev/react",
   ],
   parserOptions: {
-    ecmaVersion: 'latest',
+    ecmaVersion: "latest",
     ecmaFeatures: {
       jsx: true,
     },
-    sourceType: 'module',
+    sourceType: "module",
   },
   plugins: [
     "react",
     "react-native",
     "import",
     "simple-import-sort",
-    "unused-imports"
+    "unused-imports",
   ],
   env: {
-    "react-native/react-native": true
+    "react-native/react-native": true,
   },
   rules: {
     "react-native/no-unused-styles": 2,
     "react-native/no-inline-styles": 2,
     "react-native/no-raw-text": 1,
     "react-native/no-color-literals": 2,
+    "react-native/sort-styles": 2,
     "react-native/no-single-element-style-arrays": 2,
   },
 };
