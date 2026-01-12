@@ -4,6 +4,13 @@
 
 Eslint config for React and React Native projects. Contains recommended rules extended from `airbnb`, `airbnb/hooks`, `plugin:react`, `plugin:react-hooks`. Added rules contain import and prop sorting, as well as most available `react-native` rules.
 
+## 📋 Compatibility
+
+| Package Version | ESLint Version |
+|-----------------|----------------|
+| < 3.0.0         | ESLint 8       |
+| ≥ 3.0.0         | ESLint 9       |
+
 ## 🖥️ Installation
 
 1. Install the config and all required peer dependencies using the below commands.
