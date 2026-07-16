@@ -6,10 +6,10 @@ Eslint config for React Native Typescript projects. Contains recommended rules e
 
 ## 🖥️ Installation
 
-1. Install the config and all required peer dependencies:
+1. Install ESLint and the config. The config installs the plugins it uses.
 
 ```sh
-npx install-peerdeps --dev @ltatarev/eslint-config-react-native
+npm install --save-dev eslint@^9 @ltatarev/eslint-config-react-native
 ```
 
 2. Add `"extends": "@ltatarev/react-native"` to your `.eslintrc`.
