@@ -6,10 +6,12 @@ Eslint config for React and React Native projects. Contains recommended rules ex
 
 ## 📋 Compatibility
 
-| Package Version | ESLint Version |
-|-----------------|----------------|
-| < 3.0.0         | ESLint 8       |
-| ≥ 3.0.0         | ESLint 9       |
+| Package Version | ESLint Version | Config Format                  |
+|-----------------|----------------|--------------------------------|
+| < 3.0.0         | ESLint 8       | eslintrc (`.eslintrc`)         |
+| ≥ 3.0.0         | ESLint 9       | flat config (`eslint.config.js`) |
+
+> **Flat config only.** From 3.0.0 these packages export a flat config array and are not usable from `.eslintrc`. If you are still on eslintrc, stay on 2.x.
 
 ## 🖥️ Installation
 
@@ -25,4 +27,14 @@ or
 npm install --save-dev eslint@^9 @ltatarev/eslint-config-react-native
 ```
 
-2. Add `"extends": "@ltatarev/react"` or `"extends": "@ltatarev/react-native"` to your .eslintrc.
+2. Use the config in your `eslint.config.js`:
+
+```js
+module.exports = require("@ltatarev/eslint-config-react");
+```
+
+or
+
+```js
+module.exports = require("@ltatarev/eslint-config-react-native");
+```

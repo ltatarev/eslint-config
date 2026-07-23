@@ -1,6 +1,6 @@
 {
   "name": "@ltatarev/eslint-config-react-native",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "description": "Eslint config for React Native projects",
   "keywords": [
     "eslint",
@@ -20,7 +20,7 @@
   "author": "ltatarev",
   "main": "index.js",
   "dependencies": {
-    "@ltatarev/eslint-config-react": "^3.0.4",
+    "@ltatarev/eslint-config-react": "^3.0.5",
     "eslint-plugin-react-native": "^5.0.0"
   },
   "peerDependencies": {
